@@ -1,10 +1,10 @@
-
+//Porject tells you to guess a number to see iff u enter it correct
 
 import javax.swing.*;
- 
+ //Isabella Correa
 public class GuessingGame {
     public static void main(String[] args) {
-    	//setting the limit of number guessed
+    	//set highest number
         int computerNumber = (int) (Math.random()*100 + 1);
         int userAnswer = 0;
         System.out.println("The correct guess would be " + computerNumber);
